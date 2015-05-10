@@ -235,7 +235,7 @@ public class JSBadgeView : UIView
 				y = (superviewHeight - viewHeight) / 2.0f;
 				break;
 			default:
-				Debug.Assert(false, "Unimplemented JSBadgeAligment type {0}", BadgeAlignment);
+				Debug.Assert(false, "Unimplemented JSBadgeAligment type {0}", BadgeAlignment.ToString());
 				break;
 		}
 
